@@ -1,0 +1,96 @@
+"""
+-----------------data types ------------
+#String
+name = "Nikhil"
+print("Name :" , name)
+#integers 
+age = 20 
+print("Age", age)
+
+#floats 
+height = 5.7 
+print("Heights" , height)
+
+#Booleans
+male= True
+print("is me male" , male)
+
+
+
+#list 
+numbers=[1,2,3 , 4]
+print("Numbers" , numbers)
+
+#tuples
+coordinates =(10 , 20)
+print("Coordinates" , coordinates)
+
+#dictionaries
+person= {"name" : "Alice" , "age" :30}
+print("Person :", person)
+
+
+
+# arithmaic operatrion
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+
+print(f"Addition of {a} and {b} : {a + b}")
+print(f"Multiplication of {a} and {b} : {a * b}")
+print(f"Difference of {a} and {b} : {a - b}")
+print(f"Division of {a} by {b} : {a / b}")
+
+
+# even /odd numbers 
+num = int(input("Enter a number: "))
+
+
+if num % 2 == 0:
+    print(f"{num} is an Even number.")
+else:
+    print(f"{num} is an Odd number.")
+
+
+
+
+
+#  dictionary
+student = {"name": "Alice", "age": 20, "course": "Python"}
+
+
+print(student["name"])      
+print(student.get("age"))  
+
+
+student["age"] = 21          
+student["city"] = "London"   
+
+
+for key, value in student.items():
+    print(f"{key}: {value}")
+
+
+
+student = {"name": "Alice", "age": 20, "course": "Python"}
+
+
+print(student["name"])      
+print(student.get("age"))  
+
+
+student["age"] = 21          
+student["city"] = "London"   
+
+
+for key, value in student.items():
+    print(f"{key}: {value}")
+
+"""
+# arithmaic operatrion
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+
+print(f"Addition of {a} and {b} : {a + b}")
+print(f"Multiplication of {a} and {b} : {a * b}")
+print(f"Difference of {a} and {b} : {a - b}")
+print(f"Division of {a} by {b} : {a / b}")
