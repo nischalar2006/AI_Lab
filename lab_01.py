@@ -1,20 +1,3 @@
-"""
------------------data types ------------
-#String
-name = "Nikhil"
-print("Name :" , name)
-#integers 
-age = 20 
-print("Age", age)
-
-#floats 
-height = 5.7 
-print("Heights" , height)
-
-#Booleans
-male= True
-print("is me male" , male)
-
 
 
 #list 
